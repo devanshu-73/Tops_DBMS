@@ -1,4 +1,4 @@
--- DML insert update delete
+-- DML insert,update,delete
 select * from employee;
 use finance;
 insert into employee(name,id,salary,phone_no) values
