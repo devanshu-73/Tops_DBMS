@@ -1,6 +1,6 @@
 -- comment line
 -- create database
--- DDL create alter drop truncate
+-- DDL create,alter,drop,truncate
 create database finance;
 
 create database employee_data;
