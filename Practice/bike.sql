@@ -1,6 +1,5 @@
 -- DML insert,update,delete
 
-
 create table bike(
 bike_no int primary key,
 bike_name varchar(10) unique,
