@@ -1,6 +1,7 @@
 -- comment line
 -- create database
 -- DDL create,alter,drop,truncate
+
 create database finance;
 
 create database employee_data;
@@ -50,6 +51,6 @@ modify salary varchar(5);
 alter table employee
 modify salary int;
 
- drop table employee1;
- truncate table employee;
+drop table employee1;
+truncate table employee;
 describe employee;
