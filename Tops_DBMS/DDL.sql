@@ -25,9 +25,11 @@ phone_no varchar(10) unique
 insert into employee1 (id,name,address,phone_no)values
 (101,"xyz","nikol","9879654123"),
 (102,"abc","nikol","5632145698");
+
 -- not null: you can't leave empty record for this coloumn
 -- primary key: shoudn't duplicate, not null
 -- unique: you can leave record as null, duplicate entry is now allowed
+
 insert into employee (id,name,address,phone_no)values
 (104,"xyz","nikol","9879654124",10000);
 select * from  employee; -- dql
