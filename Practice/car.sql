@@ -4,7 +4,9 @@ create database vahicle;
 -- drop database vahicle1;
 
 show databases;
+
 use vahicle;
+
 create table car(
 car_no int primary key,
 car_name varchar(10) unique,
