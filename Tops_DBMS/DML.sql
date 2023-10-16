@@ -17,7 +17,7 @@ set name="hello"
 where name="pqr";
 
 update employee
-set id=104
+set id=103
 where id=102;
 
 update employee
