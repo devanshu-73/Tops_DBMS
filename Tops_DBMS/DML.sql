@@ -6,6 +6,7 @@ use finance;
 insert into employee(name,id,salary,phone_no) values
 ("xyz",101,"10000","785632");
 
+
 insert into employee values
 (103,"abc","5698741238",28000),
 (104,"pqr","5698741239",25000),
