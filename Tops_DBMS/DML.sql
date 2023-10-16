@@ -1,6 +1,8 @@
 -- DML insert,update,delete
 select * from employee;
+
 use finance;
+
 insert into employee(name,id,salary,phone_no) values
 ("xyz",101,"10000","785632");
 insert into employee values
@@ -33,4 +35,6 @@ insert into employee(name,id,phone_no) values
 update employee
 set salary=15000
 where id=110;
+
+
 
