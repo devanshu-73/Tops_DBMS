@@ -20,5 +20,8 @@ insert into bike (bike_no,bike_name,bike_price)values
 -- order 
 -- where
 -- OR,AND
+-- in null,is not null
+
+-- alias
 -- in,between,like
 select * from bike;
