@@ -37,7 +37,7 @@ select * from  employee; -- dql
 
 -- alter add coloumn
 alter table employee
-add salary int default 0;
+add salary int default 0
 
 
 -- alter drop coloumn
