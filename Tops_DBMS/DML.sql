@@ -40,3 +40,18 @@ where id=110;
 
 
 
+-- aggregate - count,sum,min,max,avg
+
+select count(id) from employee;
+select min(salary) from employee;
+select max(salary) from employee;
+select avg(salary) from employee;
+select sum(salary) from employee;
+
+-- scalar fun - length,mid,ucase,lcase,round,now
+select name,length(name)as lengthofname from employee;
+select name,lcase(name) as lowercase from employee;
+select name,ucase(name) as uppercase from employee;
+select round(salary) from employee;
+select now() from employee;
+select name,mid(name,1,3) as middle from employee;
