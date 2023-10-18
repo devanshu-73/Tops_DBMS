@@ -41,7 +41,6 @@ add salary int default 0;
 
 
 -- alter drop coloumn
-
 alter table employee
 drop Salary;
 
