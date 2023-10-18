@@ -36,7 +36,6 @@ insert into employee (id,name,address,phone_no)values
 select * from  employee; -- dql
 
 -- alter add coloumn
-
 alter table employee
 add salary int default 0;
 
