@@ -51,6 +51,7 @@ select sum(salary) from employee;
 select name,length(name)as lengthofname from employee;
 select name,lcase(name) as lowercase from employee;
 select name,ucase(name) as uppercase from employee;
+
 select round(salary) from employee;
 
 select now() from employee;
