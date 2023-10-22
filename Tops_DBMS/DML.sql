@@ -42,6 +42,7 @@ where id=110;
 -- aggregate - count,sum,min,max,avg
 
 select count(id) from employee;
+
 select min(salary) from employee;
 
 select max(salary) from employee;
