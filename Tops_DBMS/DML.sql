@@ -43,6 +43,7 @@ where id=110;
 
 select count(id) from employee;
 select min(salary) from employee;
+
 select max(salary) from employee;
 
 select avg(salary) from employee;
