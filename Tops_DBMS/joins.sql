@@ -12,6 +12,7 @@ alter table result add marks int default 0;
 
 delete from student
 where id=2;
+
 delete from result
 where id=3;
 insert into student values
