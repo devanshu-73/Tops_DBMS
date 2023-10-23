@@ -9,6 +9,7 @@ id int primary key,
 result varchar(5));
 
 alter table result add marks int default 0;
+
 delete from student
 where id=2;
 delete from result
