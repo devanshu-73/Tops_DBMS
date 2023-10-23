@@ -15,6 +15,7 @@ where id=2;
 
 delete from result
 where id=3;
+
 insert into student values
 (1,"a"),
 (3,"c"),
