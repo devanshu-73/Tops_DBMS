@@ -43,4 +43,5 @@ union
 select s.id,s.name,r.result from student as s right join result as r on s.id = r.id; 
 
 select * from student;
+
 select * from result;
