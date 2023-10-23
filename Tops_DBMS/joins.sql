@@ -20,6 +20,7 @@ insert into student values
 (1,"a"),
 (3,"c"),
 (4,"d");
+
 insert into result values
 (1,"PASS",76),
 (2,"FAIL",32),
