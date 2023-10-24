@@ -13,7 +13,6 @@ create table result(
 id int primary key,
 result varchar(5));
 
-
 alter table result add marks int default 0;
 
 delete from result
