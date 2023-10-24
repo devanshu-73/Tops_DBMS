@@ -16,7 +16,6 @@ result varchar(5));
 
 alter table result add marks int default 0;
 
-
 delete from result
 where id=3;
 
