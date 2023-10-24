@@ -38,6 +38,7 @@ select s.id,s.name,r.result from student as s left join result as r on s.id = r.
 select s.id,s.name,r.result from student as s right join result as r on s.id = r.id; 
 
 -- FULL JOIN :
+
 select s.id,s.name,r.result from student as s left join result as r on s.id = r.id 
 union
 select s.id,s.name,r.result from student as s right join result as r on s.id = r.id; 
