@@ -6,6 +6,9 @@ id int primary key,
 name varchar(10));
 
 
+delete from student
+where id=2;
+
 create table result(
 id int primary key,
 result varchar(5));
@@ -13,9 +16,6 @@ result varchar(5));
 
 alter table result add marks int default 0;
 
-
-delete from student
-where id=2;
 
 delete from result
 where id=3;
