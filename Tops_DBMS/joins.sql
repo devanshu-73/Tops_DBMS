@@ -4,6 +4,7 @@ create table student(
 id int primary key,
 name varchar(10));
 
+
 create table result(
 id int primary key,
 result varchar(5));
