@@ -5,7 +5,6 @@ create table student(
 id int primary key,
 name varchar(10));
 
-
 delete from student
 where id=2;
 
