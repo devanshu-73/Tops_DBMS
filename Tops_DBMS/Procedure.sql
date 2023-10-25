@@ -7,6 +7,7 @@ use finance;
 delimiter ## 
 
 create procedure display()
+
 begin
 
 select * from student;
