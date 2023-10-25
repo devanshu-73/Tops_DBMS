@@ -5,6 +5,7 @@ use finance;
 -- u can write any symbol for delimiter like ##,$$,**,&& ....
 
 delimiter ## 
+
 create procedure display()
 begin
 
