@@ -10,6 +10,7 @@ begin
 
 select * from student;
 select * from result;
+
 end ##
 
 call display();
