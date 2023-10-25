@@ -1,6 +1,6 @@
 use finance;
 
--- procedure(SQL Function)
+-- procedure(SQL Function) :
 -- u can write any symbol for delimiter like ##,$$,**,&& ....
 delimiter ## 
 create procedure display()
