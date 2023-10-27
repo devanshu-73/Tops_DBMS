@@ -5,6 +5,7 @@ use finance;
 -- first u have to create user and give password
 
 create user admin_1 identified by "pass@123";
+
 grant insert,update on finance.* to admin_1;
 show grants for admin_1;
 revoke update on finance.* from admin_1;
