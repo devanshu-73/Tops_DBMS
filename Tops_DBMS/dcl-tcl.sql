@@ -1,4 +1,6 @@
+
 use finance;
+
 -- DCL
 -- first u have to create user and give password
 
