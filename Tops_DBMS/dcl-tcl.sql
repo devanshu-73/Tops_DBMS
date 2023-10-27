@@ -29,6 +29,7 @@ rollback; -- getback to last commit
 
 insert into emp values
 (3,"dev3",21);
+
 savepoint A;
 
 
