@@ -10,8 +10,7 @@ grant insert,update on finance.* to admin_1;
 show grants for admin_1;
 revoke update on finance.* from admin_1;
 
--- TCL
--- commit,rollback,savepoint
+-- TCL : commit,rollback,savepoint
 
 create table emp(
 id int primary key,
