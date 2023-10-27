@@ -1,10 +1,10 @@
 
 use finance;
 
--- DCL
+-- DCL : grant,revoke
 -- first u have to create user and give password
 
--- grant,revoke
+
 
 create user admin_1 identified by "pass@123";
 grant insert,update on finance.* to admin_1;
