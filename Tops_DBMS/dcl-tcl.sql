@@ -22,7 +22,6 @@ insert into emp values
 
 commit; -- commit to save 
 
-
 insert into emp values
 (2,"dev2",20);
 
