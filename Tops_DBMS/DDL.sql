@@ -16,6 +16,7 @@ name text not null,
 address varchar(25),
 phone_no varchar(10) unique
 );
+
 create table employee1(
 id int primary key,
 name text not null,
