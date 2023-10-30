@@ -48,7 +48,7 @@ commit;  -- Commit everything up to this point
 savepoint C;
 
 insert into emp values (6, "dev6", 23);
-rollback to C;  -- This should work
+savepoint D;
 
 insert into emp values (7, "dev7", 24);
 
