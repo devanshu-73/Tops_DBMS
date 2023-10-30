@@ -23,7 +23,9 @@ total int);
 -- $$
 
 drop trigger calcy;
+
 DELIMITER $$
+
 CREATE TRIGGER calcy
 BEFORE INSERT ON stud
 FOR EACH ROW
@@ -38,9 +40,9 @@ END;
 $$
 
 INSERT INTO stud (id, mark1, mark2) VALUES (1, 85, 92);
+
 INSERT INTO stud (id, mark1, mark2) VALUES (2, 100, 100);
 
 INSERT INTO stud (id, mark1, mark2) VALUES (3, 100, 100);
-
 
 SELECT * FROM stud;
